@@ -4,3 +4,5 @@
 /public/
 themes/mini/
 .gitmodules
+resources/_gen/
+themes/hugo-air/
