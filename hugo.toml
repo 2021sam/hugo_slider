@@ -1,5 +1,20 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-# theme = 'ananke'
-theme = 'mini'
+theme = 'hugo-air'
+
+[languages.en.menu]
+  [[languages.en.menu.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 20
+
+  [[languages.en.menu.main]]
+    name = "Features"
+    pageRef = "/features"
+    weight = 30
+
+  [[languages.en.menu.main]]
+    name = "Gallery Masonry"
+    pageRef = "/en/gallery-masonry/"
+    weight = 60
