@@ -3,6 +3,14 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-air'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[Params]
+unsafe = true  # Ensure this is placed in the [Params] section
+
 [languages.en.menu]
   [[languages.en.menu.main]]
     name = "Home"
@@ -18,3 +26,8 @@ theme = 'hugo-air'
     name = "Gallery Masonry"
     pageRef = "/en/gallery-masonry/"
     weight = 60
+
+  [[languages.en.menu.main]]
+    name = "Collision Repair"
+    pageRef = "/en/rv-services/collision-motorhome-repair/"
+    weight = 65
