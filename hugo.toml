@@ -36,3 +36,8 @@ unsafe = true  # Ensure this is placed in the [Params] section
     name = "Slider"
     pageRef = "/rv/slider/"
     weight = 65
+
+  [[languages.en.menu.main]]
+      name = "Custom Slider"
+      pageRef = "/rv/custom-slider/"
+      weight = 70
