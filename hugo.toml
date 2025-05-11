@@ -31,3 +31,8 @@ unsafe = true  # Ensure this is placed in the [Params] section
     name = "Collision Repair"
     pageRef = "/en/rv-services/collision-motorhome-repair/"
     weight = 65
+
+  [[languages.en.menu.main]]
+    name = "Slider"
+    pageRef = "/rv/slider/"
+    weight = 65

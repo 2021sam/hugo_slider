@@ -11,7 +11,6 @@ layout = "default"
 {{< raw >}}
 <h1>This is a raw HTML test</h1>
 
-
 <!-- 🧩 START RV SERVICE BLOCK TEMPLATE: Collision Motorhome Repair -->
 <div class="wp-block-kadence-column inner-column-1 kadence-column_e5a57e-a2">
   <div class="kt-inside-inner-col">
@@ -23,10 +22,10 @@ layout = "default"
     <div class="wp-block-kadence-infobox kt-info-box-e2ad7d-6c wp-block-kadence-infobox">
       <div class="kt-info-box-media-animate kt-info-animate-flip">
         <div class="kt-info-box-image-inner-in">
-          <img src="/uploads/2024/05/collision-repair-icon-front.png" alt="Front Icon" />
+          <img src="/uploads/2024/08/IMG_0011.jpg" alt="Front Icon" />
         </div>
         <div class="kt-info-box-hover-image-inner-in">
-          <img src="/uploads/2024/05/collision-repair-icon-back.png" alt="Back Icon" />
+          <img src="/uploads/2024/08/IMG_0011-300x225.jpg" alt="Back Icon" />
         </div>
       </div>
 
@@ -49,9 +48,8 @@ layout = "default"
 
       <div class="splide__track">
         <ul class="splide__list">
-          <li class="splide__slide"><img src="/uploads/2024/05/collision-before.jpg" /></li>
-          <li class="splide__slide"><img src="/uploads/2024/05/collision-after.jpg" /></li>
-          <li class="splide__slide"><img src="/uploads/2024/05/frame-straightening.jpg" /></li>
+          <li class="splide__slide"><img src="/uploads/2024/08/IMG_0011.jpg" /></li>
+          <li class="splide__slide"><img src="/uploads/2024/08/IMG_0011-300x225.jpg" /></li>
         </ul>
       </div>
     </div>
