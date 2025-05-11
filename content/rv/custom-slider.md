@@ -1,16 +1,13 @@
 +++
 title = "Custom Slider"
-date = "2025-05-10"
-type = "rv"
-slug = "custom-slider"
 sliderImages = [
-  "/images/slider1.jpg",
-  "/images/slider2.jpg",
-  "/images/slider3.jpg"
+  "/images/slide1.jpg",
+  "/images/slide2.jpg",
+  "/images/slide3.jpg"
 ]
-draft = false
+layout = "customslider"
 +++
 
-This page uses a custom slider for showcasing images.
+Custom Slider Page
 
 {{ partial "slider.html" . }}
