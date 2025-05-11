@@ -1,17 +1,13 @@
-<!-- ✅ Swiper slider partial -->
-<div class="swiper-container">
-    <div class="swiper-wrapper">
-      {{ range .Params.slider_images }}
-        <div class="swiper-slide">
-          <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy" decoding="async">
-          {{ with .caption }}
-            <p class="caption">{{ . }}</p>
-          {{ end }}
-        </div>
-      {{ end }}
-    </div>
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+<!-- layouts/partials/slider.html -->
+<div class="swiper mySlider">
+  <div class="swiper-wrapper">
+    {{ range .Params.sliderImages }}
+      <div class="swiper-slide" style="background-image: url('{{ . }}');">
+        <!-- Optional overlay or caption can go here -->
+      </div>
+    {{ end }}
   </div>
-  
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>
