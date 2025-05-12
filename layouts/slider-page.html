@@ -1,0 +1,58 @@
+{{ define "main" }}
+<section class="container mx-auto py-10">
+  <h1 class="text-3xl font-bold mb-8 text-center">Slider Showcase</h1>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    
+    {{/* Slider 1 */}}
+    <div>
+      <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/images/slide1.jpg" alt="Slide 1" /></div>
+          <div class="swiper-slide"><img src="/images/slide2.jpg" alt="Slide 2" /></div>
+          <div class="swiper-slide"><img src="/images/slide3.jpg" alt="Slide 3" /></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    {{/* Slider 2 */}}
+    <div>
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/images/a.jpg" alt="Slide A" /></div>
+          <div class="swiper-slide"><img src="/images/b.jpg" alt="Slide B" /></div>
+          <div class="swiper-slide"><img src="/images/c.jpg" alt="Slide C" /></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    {{/* Slider 3 */}}
+    <div>
+      <div class="swiper mySwiper3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/images/x.jpg" alt="Slide X" /></div>
+          <div class="swiper-slide"><img src="/images/y.jpg" alt="Slide Y" /></div>
+          <div class="swiper-slide"><img src="/images/z.jpg" alt="Slide Z" /></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+{{/* Swiper initialization */}}
+<script>
+  const sliders = ['.mySwiper1', '.mySwiper2', '.mySwiper3'];
+  sliders.forEach((selector) => {
+    new Swiper(selector, {
+      loop: true,
+      pagination: {
+        el: selector + ' .swiper-pagination',
+        clickable: true,
+      },
+    });
+  });
+</script>
+{{ end }}

@@ -41,3 +41,8 @@ unsafe = true  # Ensure this is placed in the [Params] section
       name = "Custom Slider"
       pageRef = "/rv/custom-slider/"
       weight = 70
+
+  [[languages.en.menu.main]]
+      name = "Swiper Page"
+      url = "/swiper-page/"
+      weight = 50
