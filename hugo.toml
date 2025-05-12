@@ -38,11 +38,11 @@ unsafe = true  # Ensure this is placed in the [Params] section
     weight = 65
 
   [[languages.en.menu.main]]
-      name = "Custom Slider"
-      pageRef = "/rv/custom-slider/"
-      weight = 70
+    name = "Custom Slider"
+    pageRef = "/rv/custom-slider/"
+    weight = 70
 
   [[languages.en.menu.main]]
-      name = "Swiper Page"
-      url = "/swiper-page/"
-      weight = 50
+    name = "Swiper Page"
+    pageRef = "/swiper-page/"
+    weight = 50
